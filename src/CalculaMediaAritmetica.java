@@ -16,13 +16,17 @@ mostra a media aritmetica deles
  */
 
 
+import java.util.Scanner;
+
 public class CalculaMediaAritmetica {//classe - dentro dos {} vai seu conteudo
 
     public static void main(String[] args){//metodo - dentro dos {} vai seu conteudo
 
+        Scanner scanner = new Scanner(System.in);//System.in faz captura de dados no terminal ate o momento do Enter
+
         // *** ENTRADA DE DADOS ***
         System.out.println("Digite o primeiro valor");//metodo
-        double primeiroNumero = 30;//declaracao de variavel tipo double
+        double primeiroNumero = scanner.nextDouble();//
 
         System.out.println("Digite o segundo valor");//metodo
         double segundoNumero = 6;
