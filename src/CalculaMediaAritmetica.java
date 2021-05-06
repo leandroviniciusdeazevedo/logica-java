@@ -16,19 +16,22 @@ mostra a media aritmetica deles
  */
 
 
-public class CalculaMediaAritmetica {
+public class CalculaMediaAritmetica {//classe - dentro dos {} vai seu conteudo
 
-    public static void main(String[] args){
+    public static void main(String[] args){//metodo - dentro dos {} vai seu conteudo
 
         // *** ENTRADA DE DADOS ***
-        double primeiroNumero = 30;
+        System.out.println("Digite o primeiro valor");//metodo
+        double primeiroNumero = 30;//declaracao de variavel tipo double
+
+        System.out.println("Digite o segundo valor");//metodo
         double segundoNumero = 6;
 
         // *** PROCESSAMENTO ***
         double resultado = (primeiroNumero + segundoNumero) / 2;
 
         // *** SAIDA DE DADOS ***
-        System.out.println("O resultado e " + resultado);
+        System.out.println("O resultado e " + resultado);//metodo
 
     }
 }
