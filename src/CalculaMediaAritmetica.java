@@ -29,7 +29,7 @@ public class CalculaMediaAritmetica {//classe - dentro dos {} vai seu conteudo
         double primeiroNumero = scanner.nextDouble();//
 
         System.out.println("Digite o segundo valor");//metodo
-        double segundoNumero = 6;
+        double segundoNumero = scanner.nextDouble();
 
         // *** PROCESSAMENTO ***
         double resultado = (primeiroNumero + segundoNumero) / 2;
