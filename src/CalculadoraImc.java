@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TrabalhandoComTexto {
+public class CalculadoraImc {
 
     public static void main(String[] args){
 
@@ -10,9 +10,6 @@ public class TrabalhandoComTexto {
         System.out.println("Digite seu nome");
         String nome = scanner.nextLine();
 
-        System.out.println("Digite sua idade");
-        int idade = scanner.nextInt();
-
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
 
@@ -20,7 +17,8 @@ public class TrabalhandoComTexto {
         double peso = scanner.nextDouble();
 
         // PROCESSAMENTO
-        String valoresConcatenados = nome+", voce tem "+idade+" anos de idade, "+altura+" m de altura e pesa "+peso+" kg.";
+        double imc = peso/altura/altura;
+        String valoresConcatenados = "Seu IMC: "+imc;
 
         // SAIDA DE DADOS
         System.out.println(valoresConcatenados);//concatenacao feita anteriormente em variavel
