@@ -20,10 +20,11 @@ public class CalculadoraImc {
 
         // PROCESSAMENTO
         double imc = peso/altura/altura;
-        String valoresConcatenados = nome+", seu IMC é "+imc;
+        String valoresConcatenados = nome+", seu IMC é ";
 
         // SAIDA DE DADOS
-        System.out.println(valoresConcatenados);//concatenacao feita anteriormente em variavel
+        System.out.print(valoresConcatenados);//concatenacao feita anteriormente em variavel
+        System.out.printf("%.2f%n" , imc);
         scanner.close();
     }
 
