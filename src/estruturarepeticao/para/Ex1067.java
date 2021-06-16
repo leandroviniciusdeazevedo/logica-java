@@ -11,5 +11,6 @@ public class Ex1067 {
                 System.out.println(i);
             }
         }
+        scanner.close();
     }
 }
